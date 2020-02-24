@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?><sunwave:Config xmlns:sunwave="http://www.sunwavecorp.com/some-location" Environment="TEE" platform="项目信息: 请填写项目信息">
+  <feature>
+    
+    <navigation cname="导航功能开关" default="false" desc="默认：false" format="boolean" useable="true">false</navigation>
+    
+    
+    
+    
+    <key_emulation_mode cname="按键功能模式选择" default="0" desc="按键功能模式选择。默认：禁用按键功能(0)" format="array" options="禁用按键功能(0)|仅传统单击(1)|手指按下报单击(2)|手指抬起报单击或长按(3)|仅长按(4)" useable="true" values="0|1|2|3|4">1</key_emulation_mode>
+    
+    <auth_key cname="比对同时报key值,使能" default="false" desc="比对同时报key值使能。默认：false" format="boolean" useable="true">true</auth_key>
+    
+    
+    
+    
+    
+  </feature>
+  
+  
+    
+  
+  
+  
+  
+  
+  
+  <navigation>    
+    
+    <direct cname="导航方向映射" default="UDLR" desc="导航方向映射。默认：UDLR" format="string" useable="true">UDLR</direct>
+    <longkey_mode cname="导航长按模式" default="0" desc="导航长按模式选择。默认: 关闭长按" format="array" options="关闭长按|固定帧数|定时" useable="true" values="0|1|2">0</longkey_mode>
+    
+    
+    
+    
+    
+    
+  </navigation>
+  
+  
+  
+  
+  
+  
+  
+</sunwave:Config>
